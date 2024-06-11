@@ -3,35 +3,48 @@
     font-size: larger;    
     border-radius: 5px;
     border: solid black 1px; 
-    padding: 5px;
-    margin: 10px;    
 }
 
 #title{
     letter-spacing:15px;
     text-align: center;
     margin-top: 30px;
+    margin-bottom: 45px;
     background: linear-gradient(90deg, rgba(175,81,238,1) 0%, rgba(255,0,0,1) 50%, rgba(255,204,132,1) 100%);
 }
+
 
 ul{
     background-color: rgb(228, 215, 215);
     font-size: x-large;
-    list-style-type: none;
+    list-style: none;
     text-align: center;
+    margin: 0px;
+    align-self: center;
+    padding: 10px;
 }
 img{
     width: 100%;
+    margin: 0px;
     padding: 0px;
-    /* max-width: 100%; height: auto; */
 }
 
 #boxes{
     display: grid;
-    grid-template-columns:1fr 1fr;
+    grid-template-columns:repeat(2 , 1fr);
     size: 50%;
+    gap: 50px;
 }
 
-/* body{
+body{
     background-image:url("white-contemporany-kitchen-1920x1080-wallpaper-11923-2096870141.jpg");
-} */
+    margin: 20px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.item{
+    border: none; 
+}
