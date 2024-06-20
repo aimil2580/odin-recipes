@@ -38,8 +38,8 @@ img{
 }
 
 body{
-    background-image:url(/white-contemporany-kitchen-1920x1080-wallpaper-11923-2096870141.jpg);
-    margin: 20px;
+    background-image:url("white-contemporany-kitchen-1920x1080-wallpaper-11923-2096870141.jpg");
+    padding: 20px;
 }
 
 * {
